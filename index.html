@@ -9,7 +9,7 @@
 
 <body style="margin: 0;padding: 0;box-sizing: border-box;">
     <div id="main"
-        style="width: 100%;height: 100vh;background-color: #f3eae3;justify-content: center;display: flex;align-items: center;padding-top: 2rem;">
+        style="width: 100%;height: 100vh;background-color: #f3eae3;justify-content: center;display: flex;align-items: center;padding-top: 2rem;flex-direction:column;">
         <div id="card"
             style=" width:auto;height: auto;justify-content: center;background-color: rgb(254, 254, 254);flex-direction: row;border-radius: 10px;display: flex;align-items: center;">
             <div style="display:flex;justify-content: center;align-items: center;">
@@ -47,6 +47,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div style="padding: 40px;display: flex;align-items: center;justify-content: center;flex-direction: column;">
+            <h2 style="text-align: center;">To adjust the card fully please click over here.</h2>
+            <button style="width: 150px;height: 40px; color: rgb(251, 250, 249);background-color: orangered;border-radius: 10px;" onclick="alert('please Refresh the page the cart is not fully adjusted')"> Click Here!</button>
         </div>
         <script>
             function applyResponsiveStyle() {
